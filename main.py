@@ -19,12 +19,14 @@ else:
     system("clear")
     print(chr(27) + "[2J")
 print(f"""{Fore.RED}
-
+                                                  My GitHub: https://github.com/artmuz4
+                                                  My Vk: https://vk.vom/artmuz4
+                                                  My tg: https://t.me.artmuz4
 
 {Style.RESET_ALL}
                                               {Fore.CYAN}   Создатель: ArtMuz.{Style.RESET_ALL}
         """)
-token = input(f'1. Введите токен аккаунта:\n >>')
+token = input(f'1. Ваш токен аккаунта Discord:\n >>')
 guild_s = input('2. Id сервера который нужно скопировать:\n >>')
 guild = input('3. Id сервера куда нужно вставить:\n >>')
 input_guild_id = guild_s  # <-- input guild id
